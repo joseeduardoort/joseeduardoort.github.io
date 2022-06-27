@@ -1,0 +1,320 @@
+@charset "utf-8";
+@import url("../webfonts/Helvetica_Bold/stylesheet.css");
+@import url("../webfonts/Helvetica/stylesheet.css");
+
+
+.flex-container-header {
+    display: flex;
+    background-color: hsla(0,0%,100%,1.00);
+    width: 100%;
+    height: auto;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid hsla(0,0%,0%,1.00);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.flex-container-header h1 {
+    width: 20%;
+    height: auto;
+    color: hsla(359,88%,50%,1.00);
+    font-family: "Helvetica Bold";
+    text-align: center;
+    padding-top: 10PX;
+    padding-bottom: 10PX;
+    border: 3PX solid hsla(0,0%,0%,1.00);
+    border-radius: 30px;
+    margin-right: 45px;
+}
+.flex-container-footer {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: hsla(359,88%,50%,1.00);
+    justify-content: center;
+    align-items: center;
+}
+.flex-container-footer h5 {
+    width: 40%;
+    height: auto;
+    color: hsla(0,0%,100%,1.00);
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 1rem;
+}
+.flex-contaner-nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../medios/imagenes/Estudio27.gif);
+    background-repeat: no-repeat;
+
+
+
+
+
+
+
+    background-position: 50%;
+    background-size: 17% auto;
+
+
+
+
+
+    background-position: 50%;
+    background-position: 50% 23%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.flex-contaner-nav div {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-left: 43px;
+    padding-top: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 0;
+    margin-right: 131px;
+    text-align: center;
+    margin-top: 182px;
+    color: hsla(0,0%,0%,1.00);
+    font-family: "Helvetica Bold";
+}
+
+.flex-contaner-nav div a {
+    text-align: center;
+    color: hsla(0,0%,0%,1.00);
+    font-family: "Helvetica Bold";
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-bottom: 2px solid hsla(0,0%,0%,1.00);
+    height: auto;
+
+}
+.flex-contaner-nav div a:hover {
+    color: hsla(359,88%,50%,1.00);
+    font-size: 1.3rem;
+}
+.flex-container-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#flex-container-section1 {
+    width: 100%;
+    height: auto;
+    background-color: hsla(0,0%,68%,1.00);
+    color: hsla(0,0%,0%,1.00);
+    font-family: "Helvetica Bold";
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 20PX;
+    padding-bottom: 20PX;
+}
+.flex-container-main #flex-container-section1 .gallery {
+    margin: 5px;
+    border: 1px solid #CCCCCC;
+    width: auto;
+}
+.flex-container-main #flex-container-section1 .gallery:hover {
+    border: 1px solid #777777;
+}
+.div.gallery  img {
+    width: 100%;
+    height: auto;
+}
+.div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 1rem;
+}
+.responsive {
+    padding-top: 0px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 0px;
+    width: 25%;
+}
+.flex-container-main #flex-container-sectionquote p {
+    width: 50%;
+    margin-left: 20px;
+    font-family: Helvetica;
+    color: #BFBFBF;
+}
+.flex-container-main #flex-container-sectionquote h2 {
+    text-align: center;
+    color: #000000;
+    font-family: "Helvetica Bold";
+    font-size: 2.4rem;
+}
+.flex-container-header h1 a {
+    color: #E20B1A;
+    text-decoration: none;
+}
+.flex-container-header h1 a:hover {
+    color: #000000;
+}
+.flex-container-main #flex-container-section1 h2 {
+    color: #E20B1A;
+}
+
+
+
+
+
+@media only screen and (max-width: 700px){
+	.responsive{
+		width: 49.99999%;
+		margin: 6px 0;
+	}
+}
+@media only screen and (max-width: 500px){
+	.respondive{
+	 	width: 100%;
+	}
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}#flex-container-sectionquote {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#flex-container-sectionquote #form1 #textfield4 {
+    height: 150px;
+}
+
+label {
+    font-size: 18px;
+    color: hsla(356,91%,46%,1.00);
+    width: 20%;
+    font-family: "Helvetica Bold";
+    margin-left: 70px;
+    padding-top: 40px;
+}
+input[type=text] {
+    width: 350px;
+    height: 25px;
+    background-color: hsla(0,0%,75%,1.00);
+    border-radius: 20px;
+    color: hsla(0,0%,0%,1.00);
+    border: 1px solid hsla(0,0%,97%,1.00);
+    padding-left: 20px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+    padding-top: 0px;
+}
+input[type=submit] {
+    width: 100px;
+    height: 25px;
+    color: hsla(236,38%,41%,1.00);
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: block;
+    margin-left: 70px;
+    border-style: none;
+}
+select {
+    width: 150px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.animate__slow {
+}
+.animate__slower {
+}
+.animate__delay-4s {
+}
+.animate__delay-2s {
+}
+#section_procesamiento {
+    width: 100%;
+    font-family: "Helvetica Bold";
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 10px;
+    height: auto;
+}
+
+#main_procesamiento {
+    background-color: #ADADAD;
+    align-items: center;
+    justify-content: center;
+}
+.flex-container-main section {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+#flex-container-section2 {
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#flex-container-img-redes {
+    width: 3%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#flex-container-h2 {
+    color: #E20B1A;
+    font-family: "Helvetica Bold";
+    font-size: 2.4rem;
+}
+#flex-container-img-redes {
+    width: 7%;
+}
+#flex-container-img-redes {
+    width: 7%;
+}
+#flex-contrainerimage {
+    width: 11%;
+    height: auto;
+}
+#flex-container-img-redes {
+}
+#flex-container-img-red {
+}
+#flex-contrainerimage {
+}
+.animate__animated {
+}
+.animate__fadein {
+}
+.animate__delay-1s {
+}
+.animate.slower {
+}
+.flex-container-section-1 {
+}
